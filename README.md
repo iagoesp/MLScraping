@@ -1,8 +1,11 @@
 # MLScraping
 
 Este projeto consiste em um sistema simples para extrair informações de produtos do Mercado Livre e salvá-las em um arquivo CSV, contando também com uma interface gráfica desenvolvida em PyQt5.
+![image](https://github.com/user-attachments/assets/ed303216-a50c-413f-9334-5b631e672eed)
+
 Estrutura de Arquivos
     
+
 - LS_GUI.py :
   
     Código principal que implementa a interface gráfica usando PyQt5.
