@@ -4,20 +4,20 @@ Este projeto consiste em um sistema simples para extrair informações de produt
 Estrutura de Arquivos
     
 - LS_GUI.py :
-    
-        Código principal que implementa a interface gráfica (GUI) usando PyQt5.
-        Permite inserir uma URL de produto do Mercado Livre, realizar o scraping, exibir as informações (título, preço e URL clicável) e salvar em um arquivo CSV.
-        Também possibilita carregar o CSV e exibir em tabela os dados dos produtos previamente salvos.
+  
+    Código principal que implementa a interface gráfica (GUI) usando PyQt5.
+    Permite inserir uma URL de produto do Mercado Livre, realizar o scraping, exibir as informações (título, preço e URL clicável) e salvar em um arquivo CSV.
+    Também possibilita carregar o CSV e exibir em tabela os dados dos produtos previamente salvos.
 
 - LS_Webscrapping.py:
         
-        Classe MercadoLivreScraper que utiliza o Selenium para fazer o scraping no Mercado Livre.
-        Abre a página de produto, obtém título e preço, e retorna junto à URL fornecida.
+    Classe MercadoLivreScraper que utiliza o Selenium para fazer o scraping no Mercado Livre.
+    Abre a página de produto, obtém título e preço, e retorna junto à URL fornecida.
 
 - LS_CSV.py:
         
-        Classe CSVHandler responsável pela criação e/ou manipulação do arquivo CSV.
-        Cria o arquivo, caso não exista, e salva os dados (Título, Preço e URL).
+    Classe CSVHandler responsável pela criação e/ou manipulação do arquivo CSV.
+    Cria o arquivo, caso não exista, e salva os dados (Título, Preço e URL).
 
 ## Requisitos
 
@@ -45,15 +45,15 @@ Execute o arquivo principal da interface gráfica:
 
 #### Personalização
 
-    - Caso deseje utilizar outro nome de arquivo CSV ou outro diretório, altere diretamente na interface o campo “Pasta:” e “Nome do arquivo:”.
-    - Para redefinir os campos de texto (URL, pasta ou nome de arquivo), há um botão “Limpar” ao lado de cada campo.
+- Caso deseje utilizar outro nome de arquivo CSV ou outro diretório, altere diretamente na interface o campo “Pasta:” e “Nome do arquivo:”.
+- Para redefinir os campos de texto (URL, pasta ou nome de arquivo), há um botão “Limpar” ao lado de cada campo.
 
 #### Observações Importantes:
 
-    - O arquivo CSV será criado automaticamente caso não exista, incluindo o cabeçalho “Título, Preço, URL”.
-    - As URLs exibidas (tanto na parte superior quanto na tabela) são clicáveis. Ao clicar, o navegador padrão abrirá o respectivo link.
-    - O scraping é realizado de forma headless (sem abrir uma janela visível do navegador), por meio do Selenium.
-    - O projeto utiliza um timer para evitar cliques sucessivos no botão “Scrap” em intervalos muito curtos.
+- O arquivo CSV será criado automaticamente caso não exista, incluindo o cabeçalho “Título, Preço, URL”.
+- As URLs exibidas (tanto na parte superior quanto na tabela) são clicáveis. Ao clicar, o navegador padrão abrirá o respectivo link.
+- O scraping é realizado de forma headless (sem abrir uma janela visível do navegador), por meio do Selenium.
+- O projeto utiliza um timer para evitar cliques sucessivos no botão “Scrap” em intervalos muito curtos.
 
 Contato
 
