@@ -30,7 +30,7 @@ Para instalar as dependências necessárias, utilize:
 
 ```pip install pyqt5 selenium webdriver-manager```
 
-### Como Executar
+## Como Executar
 
 Verifique ou defina as dependências de acordo com a lista de requisitos.
 Abra um terminal na pasta do projeto.
@@ -43,12 +43,12 @@ Execute o arquivo principal da interface gráfica:
 - Configure a pasta e o nome do arquivo CSV (por padrão, produtosML.csv), e então clique em “Salvar produto” para gravar as informações no CSV.
 - Clique em “Carregar planilha” para visualizar na tabela todos os produtos já salvos no CSV.
 
-#### Personalização
+## Personalização
 
 - Caso deseje utilizar outro nome de arquivo CSV ou outro diretório, altere diretamente na interface o campo “Pasta:” e “Nome do arquivo:”.
 - Para redefinir os campos de texto (URL, pasta ou nome de arquivo), há um botão “Limpar” ao lado de cada campo.
 
-#### Observações Importantes:
+## Observações Importantes:
 
 - O arquivo CSV será criado automaticamente caso não exista, incluindo o cabeçalho “Título, Preço, URL”.
 - As URLs exibidas (tanto na parte superior quanto na tabela) são clicáveis. Ao clicar, o navegador padrão abrirá o respectivo link.
