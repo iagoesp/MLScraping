@@ -54,7 +54,3 @@ Execute o arquivo principal da interface gráfica:
 - As URLs exibidas (tanto na parte superior quanto na tabela) são clicáveis. Ao clicar, o navegador padrão abrirá o respectivo link.
 - O scraping é realizado de forma headless (sem abrir uma janela visível do navegador), por meio do Selenium.
 - O projeto utiliza um timer para evitar cliques sucessivos no botão “Scrap” em intervalos muito curtos.
-
-Contato
-
-Em caso de dúvidas ou sugestões, entre em contato pelo repositório ou pelos canais de comunicação disponibilizados.
