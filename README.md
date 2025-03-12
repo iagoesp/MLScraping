@@ -28,6 +28,12 @@ Estrutura de Arquivos
 - Selenium (para o scraping)
 - webdriver_manager (para gerenciar o driver do Chrome)
 
+Criar um ambiente virtual usando
+```python -m venv ls_env```
+
+Utilizar o ambiente definido
+```source ./bin/activate```
+
 Para instalar as dependências necessárias, utilize:
 
 ```pip install pyqt5 selenium webdriver-manager```
