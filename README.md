@@ -19,6 +19,8 @@ Estrutura de Arquivos
     Classe CSVHandler responsável pela criação e/ou manipulação do arquivo CSV.
     Cria o arquivo, caso não exista, e salva os dados (Título, Preço e URL).
 
+
+ 
 ## Requisitos
 
 - Python 3.7+
@@ -30,6 +32,8 @@ Para instalar as dependências necessárias, utilize:
 
 ```pip install pyqt5 selenium webdriver-manager```
 
+
+ 
 ## Como Executar
 
 Verifique ou defina as dependências de acordo com a lista de requisitos.
@@ -43,11 +47,15 @@ Execute o arquivo principal da interface gráfica:
 - Configure a pasta e o nome do arquivo CSV (por padrão, produtosML.csv), e então clique em “Salvar produto” para gravar as informações no CSV.
 - Clique em “Carregar planilha” para visualizar na tabela todos os produtos já salvos no CSV.
 
+
+ 
 ## Personalização
 
 - Caso deseje utilizar outro nome de arquivo CSV ou outro diretório, altere diretamente na interface o campo “Pasta:” e “Nome do arquivo:”.
 - Para redefinir os campos de texto (URL, pasta ou nome de arquivo), há um botão “Limpar” ao lado de cada campo.
 
+
+ 
 ## Observações Importantes:
 
 - O arquivo CSV será criado automaticamente caso não exista, incluindo o cabeçalho “Título, Preço, URL”.
