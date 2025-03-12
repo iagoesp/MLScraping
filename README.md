@@ -32,7 +32,7 @@ Criar um ambiente virtual usando
 ```python -m venv ls_env```
 
 Utilizar o ambiente definido
-```source ./bin/activate```
+```source ./ls_env/bin/activate```
 
 Para instalar as dependências necessárias, utilize:
 
